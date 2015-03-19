@@ -12,6 +12,11 @@ public class HelloWorld : MonoBehaviour {
 		float speed = 3.4f;
 		bool likesGames = true;
 
+		if (likesGames) {
+			string output = name + ", "+ age+ " likes games at "+ speed; 
+			print (output);
+		}
+
 		var myarray = new string[2];
 		myarray[0] = "Hello";
 		myarray[1] = "World";
@@ -21,6 +26,7 @@ public class HelloWorld : MonoBehaviour {
 		//print(name);
 
 		list.Add(name);
+		list.Add (phrase);
 		list.Add("Hey");
 	}
 	
